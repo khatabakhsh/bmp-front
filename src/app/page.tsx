@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <section className="bg-[#FFCC00] relative">
-        <div className="min-h-[700px] h-[calc(49vw-122px)] container mx-auto max-w-7xl flex flex-row items-center justify-between">
+        <div className="min-h-[700px] h-[calc(49vw-122px)] container mx-auto max-w-7xl flex flex-row items-center justify-between px-6 2xl:px-0">
           <div className="flex flex-col gap-2">
             <h1 className="text-[80px] font-medium leading-[88px]">
               Willkommen bei <span className="font-bold">ReNova</span>
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto max-w-7xl flex flex-row items-center justify-between mt-56">
+      <section className="container mx-auto max-w-7xl flex flex-row items-center justify-between mt-56 px-6 2xl:px-0">
         <div className="flex flex-col gap-2">
           <span className="text-7xl font-medium text-[#0E0E0E]">350+</span>
           <span className="text-2xl text-[#646464]">Erfolgreiche Projekte</span>
@@ -65,7 +65,7 @@ export default function Home() {
       <section className="bg-[#0E0E0E] w-full mt-28 relative max-h-[1558px]">
         <div className="absolute size-[100px] bg-white top-0 left-[100px]" />
         <div className="absolute size-[100px] bg-white top-[100px] left-0" />
-        <div className="container mx-auto max-w-7xl translate-y-1/7 ">
+        <div className="container mx-auto max-w-7xl translate-y-1/7 px-6 2xl:px-0">
           <div className="flex flex-col items-center text-center mb-16">
             <div className="flex flex-row gap-3 items-center mb-6">
               <span className="w-10 h-px bg-white" />
@@ -205,7 +205,7 @@ export default function Home() {
       </section>
 
       <section className="bg-[#FFCC00] relative h-[651px] overflow-hidden mt-[550px] flex">
-        <div className="container mx-auto max-w-7xl flex flex-row gap-10 items-center h-full">
+        <div className="container mx-auto max-w-7xl flex flex-row gap-10 items-center h-full px-6 2xl:px-0">
           <div className="flex flex-col gap-24">
             <div>
               <div className="flex flex-row gap-2 items-center mb-4">
@@ -243,7 +243,7 @@ export default function Home() {
         <div className="size-[100px] bg-[#FFCC00] absolute bottom-[100px] right-[100px]" />
       </section>
 
-      <section className="container mx-auto max-w-7xl flex flex-col md:flex-row gap-12 justify-between mt-28">
+      <section className="container mx-auto max-w-7xl flex flex-col md:flex-row gap-12 justify-between mt-28 px-6 2xl:px-0">
         <div className="flex flex-col gap-10 basis-1/2">
           <div className="relative">
             <div className="absolute size-[100px] bg-[#FFCC00] top-0 left-0" />
@@ -296,7 +296,7 @@ export default function Home() {
       </section>
 
       <section className="bg-[#0E0E0E] w-full mt-28 py-28 relative text-white">
-        <div className="container mx-auto max-w-7xl flex flex-col md:flex-row gap-24 justify-between">
+        <div className="container mx-auto max-w-7xl flex flex-col md:flex-row gap-24 justify-between px-6 2xl:px-0">
           <div className="flex flex-col md:w-1/2 gap-0">
             <div className="mb-8">
               <h2 className="text-[82px] font-medium leading-[88px] mb-6">Kontakt</h2>
@@ -371,7 +371,7 @@ export default function Home() {
         <div className="absolute size-[100px] bg-[#0E0E0E] -bottom-[200px] right-[calc(50%+100px)] translate-x-1/2" />
       </section>
 
-      <section className="container mx-auto max-w-7xl mt-[300px] text-center">
+      <section className="container mx-auto max-w-7xl mt-[300px] text-center px-6 2xl:px-0">
         <div className="flex flex-row gap-3 items-center mb-6 justify-center">
           <span className="w-7 h-px bg-[#0E0E0E]" />
           <span className="text-base tracking-widest text-[#0E0E0E] uppercase">
@@ -388,11 +388,18 @@ export default function Home() {
           für Kunden auf der ganzen Welt zu liefern – ein Spiegelbild unseres Engagements für
           Exzellenz und Innovation
         </p>
-        <Image src="/world.png" alt="world" width={1284} height={604} className="mt-12" />
+        <Image
+          unoptimized
+          src="/world.png"
+          alt="world"
+          width={1284}
+          height={604}
+          className="mt-12"
+        />
       </section>
 
       <footer className="bg-[#0E0E0E] w-full py-20 mt-30 relative">
-        <div className="container mx-auto max-w-7xl flex flex-col gap-12 h-full">
+        <div className="container mx-auto max-w-7xl flex flex-col gap-12 h-full px-6 2xl:px-0">
           <div className="flex flex-row items-center mb-6">
             <p className="max-w-[520px] text-white text-[42px] leading-[52px] font-medium">
               Bereit, den Auslöser zu betätigen? Holen Sie sich noch heute ein Angebot.

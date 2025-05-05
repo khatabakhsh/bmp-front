@@ -4,7 +4,7 @@ import { FC } from 'react';
 const Header: FC = () => {
   return (
     <div className="bg-[#FFCC00]">
-      <div className="container mx-auto max-w-7xl flex flex-row items-center justify-between h-[122px]">
+      <div className="container mx-auto max-w-7xl flex flex-row items-center justify-between h-[122px] px-6 2xl:px-0">
         <div className="flex flex-row items-center gap-4 ">
           <Image src="/logo-black.svg" width={44} height={44} alt="BMP-logo" />
           <span className="text-2xl font-medium leading-[52px] text-[#0E0E0E]">ReNova</span>
