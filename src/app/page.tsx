@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import Image from 'next/image';
+import { ContactForm } from '@/components/organisms/contact-form';
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
               überwachen den gesamten Bauprozess, um höchste Qualität, Nachhaltigkeit und Effizienz
               sicherzustellen.
             </p>
-            <div className="flex flex-row gap-2 mt-12">
+            <div className="flex flex-row gap-4 mt-12">
               <Button variant="default" size="lg" endIcon={<ArrowRight />}>
                 Mehr erfahren
               </Button>
@@ -33,6 +34,7 @@ export default function Home() {
           <div className="" />
           <Image
             src="/hero-background.jpg"
+            unoptimized
             width={946}
             height={943}
             alt="hero-background"
@@ -240,6 +242,205 @@ export default function Home() {
         <div className="size-[100px] bg-[#FFCC00] absolute bottom-0 right-[200px]" />
         <div className="size-[100px] bg-[#FFCC00] absolute bottom-[100px] right-[100px]" />
       </section>
+
+      <section className="container mx-auto max-w-7xl flex flex-col md:flex-row gap-12 justify-between mt-28">
+        <div className="flex flex-col gap-10 basis-1/2">
+          <div className="relative">
+            <div className="absolute size-[100px] bg-[#FFCC00] top-0 left-0" />
+            <Image src="/worker1.jpg" alt="worker1" width={596} height={535} />
+          </div>
+          <p className="font-medium text-lg leading-[30px] text-[#646464]">
+            Die Renova GmbH wurde 2024 gegründet und ist ein spezialisierter Dienstleister für
+            Baumanagement und Renovierungsprojektmanagement. Mit umfassender Erfahrung auf
+            internationalen Märkten wie dem Nahen Osten (Dubai), der Türkei und nun Deutschland
+            bringen wir eine globale Perspektive in jedes Projekt ein.
+          </p>
+          <div className="relative mt-3">
+            <div className="absolute size-[100px] bg-[#FFCC00] top-0 left-0" />
+            <Image src="/worker2.jpg" alt="worker2" width={596} height={535} />
+          </div>
+          <p className="font-medium text-lg leading-[30px] text-[#646464]">
+            Neben unseren Kernleistungen sind wir Experten in den Bereichen technische Due
+            Diligence, nachhaltiges Sanierungsmanagement (ESG), maßgeschneiderte Nutzerlösungen
+            sowie Projektberatung, Schulung und Coaching.
+          </p>
+        </div>
+        <div className="flex flex-col gap-10 basis-1/2">
+          <div className="flex flex-col gap-0">
+            <div className="flex flex-row gap-2 items-center mb-4">
+              <div className="w-7 h-px bg-[#0E0E0E]" />
+              <span className="text-[#0E0E0E] font-medium text-base uppercase">Über uns </span>
+            </div>
+            <h2 className="text-6xl leading-[70px] font-medium text-[#0E0E0E]">Wer wir sind</h2>
+          </div>
+          <div className="relative mt-10">
+            <div className="absolute size-[100px] bg-[#FFCC00] bottom-0 right-0" />
+            <Image src="/worker3.jpg" alt="worker3" width={596} height={535} />
+          </div>
+          <p className="font-medium text-lg leading-[30px] text-[#646464]">
+            Wir bieten ein umfassendes Leistungsspektrum für die Renovierungs- und
+            Immobilienbranche, darunter Projektmanagement, Bauleitung und Projektcontrolling. Unsere
+            Arbeit basiert auf drei zentralen Werten: Teamarbeit, kundenorientierte Lösungen und
+            Innovation.
+          </p>
+          <div className="relative mt-3">
+            <div className="absolute size-[100px] bg-[#FFCC00] top-0 left-0" />
+            <Image src="/worker4.jpg" alt="worker4" width={596} height={535} />
+          </div>
+          <p className="font-medium text-lg leading-[30px] text-[#646464]">
+            Bei Renova GmbH verwalten wir nicht nur Projekte – wir gestalten Transformationen mit
+            Präzision, Effizienz und höchster Qualität. Lassen Sie uns gemeinsam Ihre
+            Renovierungsvision verwirklichen.
+          </p>
+        </div>
+      </section>
+
+      <section className="bg-[#0E0E0E] w-full mt-28 py-28 relative text-white">
+        <div className="container mx-auto max-w-7xl flex flex-col md:flex-row gap-24 justify-between">
+          <div className="flex flex-col md:w-1/2 gap-0">
+            <div className="mb-8">
+              <h2 className="text-[82px] font-medium leading-[88px] mb-6">Kontakt</h2>
+              <p className="text-lg font-medium leading-[30px] text-[#C5C5C5]">
+                Haben Sie Fragen oder planen ein Projekt? Wir sind für Sie da! Kontaktieren Sie uns
+                für eine persönliche Beratung – gemeinsam bringen wir Ihr Vorhaben auf den richtigen
+                Weg.
+              </p>
+            </div>
+            <div className="flex flex-col gap-10 mb-20">
+              <div className="flex gap-4">
+                <Image src="/icons/email.svg" alt="email" width={53} height={39} />
+                <div>
+                  <span className="block text-md text-[#939393] tracking-widest uppercase">
+                    send me an email
+                  </span>
+                  <a
+                    href="mailto:contact@ReNova.com"
+                    className="font-semibold text-lg text-white hover:underline inline-flex items-center gap-3"
+                  >
+                    contact@ReNova.com
+                    <span>
+                      <ArrowUpRight />
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <Image src="/icons/call-calling.svg" alt="call-calling" width={53} height={39} />
+                <div>
+                  <span className="block text-md text-[#939393] tracking-widest uppercase">
+                    Kontakt Nummer
+                  </span>
+                  <a
+                    href="tel:+15555555555"
+                    className="font-semibold text-lg text-white hover:underline inline-flex items-center gap-3"
+                  >
+                    +1 (555) 555-5555
+                    <span>
+                      <ArrowUpRight />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <span className="block text-2xl font-semibold mb-4">
+                Folgen Sie unserer Arbeit in den sozialen Medien
+              </span>
+              <div className="flex flex-row gap-6 mt-2">
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/facebook.svg" alt="facebook" width={28} height={28} />
+                </a>
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/instagram.svg" alt="instagram" width={28} height={28} />
+                </a>
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/twitter.svg" alt="twitter" width={28} height={28} />
+                </a>
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/pintrest.svg" alt="pintrest" width={28} height={28} />
+                </a>
+              </div>
+            </div>
+          </div>
+          <ContactForm />
+        </div>
+        <div className="absolute size-[100px] bg-white bottom-[100px] left-0 hidden 2xl:block" />
+        <div className="absolute size-[100px] bg-white bottom-0 left-[100px] hidden 2xl:block" />
+        <div className="absolute size-[100px] bg-[#0E0E0E] -bottom-[100px] right-1/2 translate-x-1/2" />
+        <div className="absolute size-[100px] bg-[#0E0E0E] -bottom-[200px] right-[calc(50%-100px)] translate-x-1/2" />
+        <div className="absolute size-[100px] bg-[#0E0E0E] -bottom-[200px] right-[calc(50%+100px)] translate-x-1/2" />
+      </section>
+
+      <section className="container mx-auto max-w-7xl mt-[300px] text-center">
+        <div className="flex flex-row gap-3 items-center mb-6 justify-center">
+          <span className="w-7 h-px bg-[#0E0E0E]" />
+          <span className="text-base tracking-widest text-[#0E0E0E] uppercase">
+            Weltweiter Betrieb
+          </span>
+          <span className="w-7 h-px bg-[#0E0E0E]" />
+        </div>
+        <h4 className="text-6xl font-medium text-leading-[70px] text-[#0E0E0E] mt-[100px]">
+          Unser Unternehmen ist weltweit tätig und in mehreren Ländern auf verschiedenen Kontinenten
+          vertreten
+        </h4>
+        <p className="text-lg font-medium leading-[30px] text-[#646464] mt-12">
+          Unser umfassendes Netzwerk ermöglicht es uns, erstklassige Produkte und Dienstleistungen
+          für Kunden auf der ganzen Welt zu liefern – ein Spiegelbild unseres Engagements für
+          Exzellenz und Innovation
+        </p>
+        <Image src="/world.png" alt="world" width={1284} height={604} className="mt-12" />
+      </section>
+
+      <footer className="bg-[#0E0E0E] w-full py-20 mt-30 relative">
+        <div className="container mx-auto max-w-7xl flex flex-col gap-12 h-full">
+          <div className="flex flex-row items-center mb-6">
+            <p className="max-w-[520px] text-white text-[42px] leading-[52px] font-medium">
+              Bereit, den Auslöser zu betätigen? Holen Sie sich noch heute ein Angebot.
+            </p>
+            <div className="flex-1" />
+            <Button
+              variant="default"
+              size="lg"
+              endIcon={<ArrowRight />}
+              className="bg-white text-[#0E0E0E] hover:bg-white/80"
+            >
+              Holen Sie sich ein Angebot
+            </Button>
+            <div className="flex-1" />
+          </div>
+          <div className="flex flex-row gap-0 border-t border-b border-[#FFCC00]">
+            <div className="basis-[240px] border-r border-[#FFCC00] flex flex-col gap-5 py-2.5">
+              <div className="flex flex-row items-center gap-2">
+                <Image src="/logo-orange.svg" width={44} height={44} alt="BMP-logo" />
+                <span className="text-2xl text-white font-medium leading-[52px]">ReNova</span>
+              </div>
+              <div className="flex flex-row gap-6">
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/facebook.svg" alt="facebook" width={18} height={18} />
+                </a>
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/instagram.svg" alt="instagram" width={18} height={18} />
+                </a>
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/twitter.svg" alt="twitter" width={18} height={18} />
+                </a>
+                <a href="#" className="hover:text-[#FFD43E]">
+                  <Image src="/icons/pintrest.svg" alt="pintrest" width={18} height={18} />
+                </a>
+              </div>
+            </div>
+            <div className="flex-1 flex flex-row items-center justify-center gap-8 text-base font-medium text-[#F5F5F5] uppercase">
+              <span>Home</span>
+              <span>Services</span>
+              <span>Projekte</span>
+              <span>Über uns</span>
+              <span>Kontakt</span>
+            </div>
+          </div>
+        </div>
+        <div className="absolute size-[100px] bg-[#FFCC00] top-0 right-[100px] hidden xl:block" />
+        <div className="absolute size-[100px] bg-[#FFCC00] top-[100px] right-0 hidden xl:block" />
+      </footer>
     </>
   );
 }
