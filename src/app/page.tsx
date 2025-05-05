@@ -5,9 +5,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-      <div className="bg-[#FFCC00] relative">
-        <div className="min-h-[800px] container mx-auto max-w-7xl flex flex-row items-center ">
-          <div className="flex flex-col gap-2 ">
+      <section className="bg-[#FFCC00] relative">
+        <div className="min-h-[700px] h-[calc(49vw-122px)] container mx-auto max-w-7xl flex flex-row items-center justify-between">
+          <div className="flex flex-col gap-2">
             <h1 className="text-[80px] font-medium leading-[88px]">
               Willkommen bei <span className="font-bold">ReNova</span>
             </h1>
@@ -24,25 +24,24 @@ export default function Home() {
               <Button variant="default" size="lg" endIcon={<ArrowRight />}>
                 Mehr erfahren
               </Button>
-
               <Button variant="outline" size="lg">
                 Kontakt
               </Button>
             </div>
           </div>
-          <div className="min-w-1/2 h-full"></div>
+          <div className="flex-1 shrink-0 basis-auto min-w-1/2 h-full"></div>
+          <div className="" />
+          <Image
+            src="/hero-background.jpg"
+            width={946}
+            height={943}
+            alt="hero-background"
+            className="absolute right-0 -bottom-[122px] max-w-[49vw]"
+          />
         </div>
+      </section>
 
-        <Image
-          src="/hero-background.png"
-          width={946}
-          height={943}
-          alt="hero-background"
-          className="absolute right-0 top-0 max-w-[49vw]"
-        />
-      </div>
-
-      <div className="container mx-auto max-w-7xl flex flex-row items-center justify-between mt-28">
+      <section className="container mx-auto max-w-7xl flex flex-row items-center justify-between mt-56">
         <div className="flex flex-col gap-2">
           <span className="text-7xl font-medium text-[#0E0E0E]">350+</span>
           <span className="text-2xl text-[#646464]">Erfolgreiche Projekte</span>
@@ -59,9 +58,8 @@ export default function Home() {
           <span className="text-7xl font-medium text-[#0E0E0E]">100%</span>
           <span className="text-2xl text-[#646464]">Kundenzufriedenheit</span>
         </div>
-      </div>
+      </section>
 
-      {/* Dienstleistungen Section */}
       <section className="bg-[#0E0E0E] w-full mt-28 relative max-h-[1558px]">
         <div className="absolute size-[100px] bg-white top-0 left-[100px]" />
         <div className="absolute size-[100px] bg-white top-[100px] left-0" />
@@ -202,6 +200,45 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="bg-[#FFCC00] relative h-[651px] overflow-hidden mt-[550px] flex">
+        <div className="container mx-auto max-w-7xl flex flex-row gap-10 items-center h-full">
+          <div className="flex flex-col gap-24">
+            <div>
+              <div className="flex flex-row gap-2 items-center mb-4">
+                <div className="w-7 h-px bg-[#0E0E0E]" />
+                <span className="text-[#0E0E0E] font-medium text-base uppercase">Projekte</span>
+              </div>
+              <h2 className="text-6xl font-medium text-[#0E0E0E]">Demnächst verfügbar...</h2>
+            </div>
+            <div>
+              <p className="text-[#2F2F2F] text-lg leading-[30px] mb-10">
+                Bald präsentieren wir Ihnen an dieser Stelle unsere spannenden Projekte
+              </p>
+              <div className="flex flex-row gap-11">
+                <Button variant="default" size="lg" endIcon={<ArrowRight />}>
+                  Anzeigen
+                </Button>
+                <Button variant="outline" size="lg">
+                  Kontakt
+                </Button>
+              </div>
+            </div>
+          </div>
+          <div className="min-w-1/2" />
+        </div>
+        <Image
+          src="/projects.png"
+          width={921}
+          height={650}
+          alt="projects"
+          className="absolute right-0 top-0 w-1/2 h-full"
+        />
+        <div className="size-[100px] bg-[#FFCC00] absolute top-0 right-0" />
+        <div className="size-[100px] bg-[#FFCC00] absolute bottom-0 right-0" />
+        <div className="size-[100px] bg-[#FFCC00] absolute bottom-0 right-[200px]" />
+        <div className="size-[100px] bg-[#FFCC00] absolute bottom-[100px] right-[100px]" />
       </section>
     </>
   );
