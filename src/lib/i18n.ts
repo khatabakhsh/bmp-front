@@ -1,5 +1,11 @@
 import 'server-only';
-import type { Locale } from '@/types/i18n';
+
+export const i18n = {
+  defaultLocale: 'de',
+  locales: ['en', 'de', 'tr'],
+} as const;
+
+export type Locale = (typeof i18n)['locales'][number];
 
 const dictionaries = {
   de: () => import('@/dictionaries/de.json').then((module) => module.default),

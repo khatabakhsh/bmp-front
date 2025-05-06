@@ -9,8 +9,20 @@ import {
   SelectTrigger,
   SelectValue,
 } from '../atoms/Select';
+import { usePathname, useRouter } from 'next/navigation';
+import { Locale } from '@/lib/i18n';
 
-const LanguageSwitcher: FC = () => {
+const LanguageSwitcher: FC<{ lang: Locale }> = ({ lang }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const redirectedPathname = (locale: Locale) => {
+    if (!pathname) return '/';
+    const segments = pathname.split('/');
+    segments[1] = locale;
+    return segments.join('/');
+  };
+
   const languages = [
     { value: 'de', label: '🇩🇪' },
     { value: 'en', label: '🇬🇧' },
@@ -18,11 +30,14 @@ const LanguageSwitcher: FC = () => {
   ];
 
   return (
-    <Select>
+    <Select
+      value={lang}
+      onValueChange={(value) => router.push(redirectedPathname(value as Locale))}
+    >
       <SelectTrigger className="w-20 emoji">
-        <SelectValue />
+        <SelectValue className="emoji" />
       </SelectTrigger>
-      <SelectContent className="bg-white">
+      <SelectContent className="bg-white emoji">
         <SelectGroup>
           {languages.map((language) => (
             <SelectItem key={language.value} value={language.value} className="emoji">

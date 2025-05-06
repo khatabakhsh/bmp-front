@@ -23,6 +23,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
             error && 'border-b-red-500 focus:border-b-red-500',
             className
           )}
+          suppressHydrationWarning
           {...props}
         />
       </div>

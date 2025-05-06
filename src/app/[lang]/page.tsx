@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import Image from 'next/image';
 import { ContactForm } from '@/components/organisms/contact-form';
 import { getDictionary } from '@/lib/i18n';
-import type { Locale } from '@/types/i18n';
+import { Locale } from '@/lib/i18n';
 import { Header } from '@/components/templates/header';
 
 export default async function Home({ params }: { params: Promise<{ lang: Locale }> }) {
@@ -12,7 +12,7 @@ export default async function Home({ params }: { params: Promise<{ lang: Locale 
 
   return (
     <>
-      <Header dict={dict} />
+      <Header dict={dict} lang={lang} />
       <section className="bg-[#FFCC00] relative">
         <div className="min-h-[700px] h-[calc(49vw-122px)] container mx-auto max-w-7xl flex flex-row items-center justify-between px-6 2xl:px-0">
           <div className="flex flex-col gap-2">
