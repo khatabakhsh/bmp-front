@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "title": "Welcome to",
+    "company": "ReNova",
+    "description": "Your expert for sustainable renovation, refurbishment and modernization of residential and commercial properties. As a competent construction management service provider for smooth and efficient implementation of your construction projects. From the first idea to final completion, we offer comprehensive consulting and management services: We develop customized concepts, coordinate experienced craftsmen and monitor the entire construction process to ensure the highest quality, sustainability and efficiency.",
+    "buttons": {
+      "learnMore": "Learn More",
+      "contact": "Contact"
+    }
+  },
+  "stats": {
+    "projects": {
+      "count": "350+",
+      "label": "Successful Projects"
+    },
+    "team": {
+      "count": "65+",
+      "label": "Team Members"
+    },
+    "clients": {
+      "count": "80+",
+      "label": "Satisfied Clients"
+    },
+    "satisfaction": {
+      "count": "100%",
+      "label": "Client Satisfaction"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "heading": "Our Services",
+    "description": "With our customized service modules – project management, project leadership and project controlling – we offer comprehensive support for smooth project execution. As your dedicated construction management team, we take on project-specific tasks – whether through expert consultation or by taking on central steering and control functions. We handle the challenges so you can focus entirely on transforming your property.",
+    "items": {
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "Holistic control and coordination of all project phases for successful construction execution."
+      },
+      "clientRepresentation": {
+        "title": "Client Representation",
+        "description": "We represent your interests and professionally manage your construction project from start to finish."
+      },
+      "constructionManagement": {
+        "title": "Construction Management",
+        "description": "Efficient planning, coordination and monitoring for smooth construction execution."
+      },
+      "sustainableRenovation": {
+        "title": "Sustainable Renovation",
+        "description": "Resource-efficient modernization for energy-efficient and future-proof buildings."
+      },
+      "costConsulting": {
+        "title": "Cost Consulting",
+        "description": "Transparent budget planning and control for economical project implementation."
+      },
+      "technicalDueDiligence": {
+        "title": "Technical Due Diligence",
+        "description": "Comprehensive technical inspection and evaluation of properties for sound investment decisions."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "heading": "Coming Soon...",
+    "description": "Soon we will present our exciting projects here",
+    "buttons": {
+      "view": "View",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "heading": "Who We Are",
+    "paragraphs": {
+      "1": "ReNova GmbH was founded in 2024 and is a specialized service provider for construction management and renovation project management. With extensive experience in international markets such as the Middle East (Dubai), Turkey, and now Germany, we bring a global perspective to every project.",
+      "2": "In addition to our core services, we are experts in technical due diligence, sustainable renovation management (ESG), customized user solutions, as well as project consulting, training, and coaching.",
+      "3": "We offer a comprehensive range of services for the renovation and real estate industry, including project management, construction supervision, and project controlling. Our work is based on three core values: teamwork, customer-oriented solutions, and innovation.",
+      "4": "At ReNova GmbH, we don't just manage projects – we shape transformations with precision, efficiency, and the highest quality. Let's realize your renovation vision together."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Do you have questions or planning a project? We're here for you! Contact us for a personal consultation – together we'll get your project on the right track.",
+    "email": {
+      "label": "send me an email",
+      "address": "contact@ReNova.com"
+    },
+    "phone": {
+      "label": "Contact Number",
+      "number": "+1 (555) 555-5555"
+    },
+    "social": {
+      "title": "Follow our work on social media"
+    }
+  },
+  "global": {
+    "title": "Global Operations",
+    "heading": "Our company operates worldwide and is present in several countries across different continents",
+    "description": "Our extensive network enables us to deliver first-class products and services to customers around the world – a reflection of our commitment to excellence and innovation"
+  },
+  "footer": {
+    "cta": "Ready to pull the trigger? Get a quote today.",
+    "getQuote": "Get a Quote",
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  }
+}
