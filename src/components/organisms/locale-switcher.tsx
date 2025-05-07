@@ -11,6 +11,7 @@ import {
 } from '../atoms/Select';
 import { usePathname, useRouter } from 'next/navigation';
 import { Locale } from '@/lib/i18n';
+import Image from 'next/image';
 
 const LanguageSwitcher: FC<{ lang: Locale }> = ({ lang }) => {
   const router = useRouter();
@@ -24,9 +25,9 @@ const LanguageSwitcher: FC<{ lang: Locale }> = ({ lang }) => {
   };
 
   const languages = [
-    { value: 'de', label: '🇩🇪' },
-    { value: 'en', label: '🇬🇧' },
-    { value: 'tr', label: '🇹🇷' },
+    { value: 'de', label: <Image src="/icons/flag-de.svg" alt="de" width={20} height={20} /> },
+    { value: 'en', label: <Image src="/icons/flag-gb.svg" alt="gb" width={20} height={20} /> },
+    { value: 'tr', label: <Image src="/icons/flag-tr.svg" alt="tr" width={20} height={20} /> },
   ];
 
   return (
@@ -34,13 +35,13 @@ const LanguageSwitcher: FC<{ lang: Locale }> = ({ lang }) => {
       value={lang}
       onValueChange={(value) => router.push(redirectedPathname(value as Locale))}
     >
-      <SelectTrigger className="w-20 emoji">
-        <SelectValue className="emoji" />
+      <SelectTrigger className="w-20  border-none shadow-none focus:ring-0 focus-visible:ring-0">
+        <SelectValue />
       </SelectTrigger>
-      <SelectContent className="bg-white emoji">
+      <SelectContent className="bg-white w-18">
         <SelectGroup>
           {languages.map((language) => (
-            <SelectItem key={language.value} value={language.value} className="emoji">
+            <SelectItem key={language.value} value={language.value}>
               {language.label}
             </SelectItem>
           ))}
