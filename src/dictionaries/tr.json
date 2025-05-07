@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "title": "Hoş Geldiniz",
+    "company": "ReNova",
+    "description": "Konut ve ticari mülklerin sürdürülebilir yenileme, yenileme ve modernizasyonu konusunda uzmanınız. İnşaat projelerinizin sorunsuz ve verimli uygulanması için yetkin bir inşaat yönetimi hizmet sağlayıcısı olarak. İlk fikirden nihai tamamlanmaya kadar, kapsamlı danışmanlık ve yönetim hizmetleri sunuyoruz: En yüksek kalite, sürdürülebilirlik ve verimliliği sağlamak için özel konseptler geliştiriyor, deneyimli zanaatkarları koordine ediyor ve tüm inşaat sürecini izliyoruz.",
+    "buttons": {
+      "learnMore": "Daha Fazla Bilgi",
+      "contact": "İletişim"
+    }
+  },
+  "stats": {
+    "projects": {
+      "count": "350+",
+      "label": "Başarılı Proje"
+    },
+    "team": {
+      "count": "65+",
+      "label": "Ekip Üyesi"
+    },
+    "clients": {
+      "count": "80+",
+      "label": "Mutlu Müşteri"
+    },
+    "satisfaction": {
+      "count": "100%",
+      "label": "Müşteri Memnuniyeti"
+    }
+  },
+  "services": {
+    "title": "Hizmetler",
+    "heading": "Hizmetlerimiz",
+    "description": "Özelleştirilmiş hizmet modüllerimizle – proje yönetimi, proje liderliği ve proje kontrolü – sorunsuz proje yürütümü için kapsamlı destek sunuyoruz. Özel inşaat yönetimi ekibimiz olarak, uzman danışmanlık veya merkezi yönlendirme ve kontrol fonksiyonlarını üstlenerek proje özel görevleri üstleniyoruz. Siz mülkünüzün dönüşümüne tamamen odaklanabilirsiniz, zorlukları biz hallediyoruz.",
+    "items": {
+      "projectManagement": {
+        "title": "Proje Yönetimi",
+        "description": "Başarılı inşaat yürütümü için tüm proje aşamalarının bütünsel kontrolü ve koordinasyonu."
+      },
+      "clientRepresentation": {
+        "title": "Müşteri Temsili",
+        "description": "Çıkarlarınızı temsil ediyor ve inşaat projenizi baştan sona profesyonelce yönetiyoruz."
+      },
+      "constructionManagement": {
+        "title": "İnşaat Yönetimi",
+        "description": "Sorunsuz inşaat yürütümü için verimli planlama, koordinasyon ve izleme."
+      },
+      "sustainableRenovation": {
+        "title": "Sürdürülebilir Yenileme",
+        "description": "Enerji verimli ve geleceğe hazır binalar için kaynak verimli modernizasyon."
+      },
+      "costConsulting": {
+        "title": "Maliyet Danışmanlığı",
+        "description": "Ekonomik proje uygulaması için şeffaf bütçe planlaması ve kontrolü."
+      },
+      "technicalDueDiligence": {
+        "title": "Teknik Due Diligence",
+        "description": "Özelleştirilmiş kullanıcı çözümleri ve proje danışmanlığı, eğitim ve koçluk konularında uzmanız."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projeler",
+    "heading": "Çok Yakında...",
+    "description": "Yakında heyecan verici projelerimizi burada sunacağız",
+    "buttons": {
+      "view": "Görüntüle",
+      "contact": "İletişim"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "heading": "Biz Kimiz",
+    "paragraphs": {
+      "1": "ReNova GmbH 2024 yılında kurulmuş olup, inşaat yönetimi ve yenileme proje yönetimi konusunda uzmanlaşmış bir hizmet sağlayıcısıdır. Orta Doğu (Dubai), Türkiye ve şimdi Almanya gibi uluslararası pazarlardaki kapsamlı deneyimimizle, her projeye küresel bir perspektif getiriyoruz.",
+      "2": "Temel hizmetlerimizin yanı sıra, teknik due diligence, sürdürülebilir yenileme yönetimi (ESG), özelleştirilmiş kullanıcı çözümleri ve proje danışmanlığı, eğitim ve koçluk konularında uzmanız.",
+      "3": "Yenileme ve gayrimenkul sektörü için proje yönetimi, inşaat denetimi ve proje kontrolü dahil olmak üzere kapsamlı bir hizmet yelpazesi sunuyoruz. Çalışmalarımız üç temel değere dayanmaktadır: ekip çalışması, müşteri odaklı çözümler ve yenilik.",
+      "4": "ReNova GmbH'da sadece projeleri yönetmiyoruz – dönüşümleri hassasiyet, verimlilik ve en yüksek kalite ile şekillendiriyoruz. Yenileme vizyonunuzu birlikte gerçekleştirelim."
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Sorularınız mı var veya bir proje mi planlıyorsunuz? Size yardımcı olmak için buradayız! Kişisel bir danışmanlık için bizimle iletişime geçin – projenizi birlikte doğru yola koyalım.",
+    "email": {
+      "label": "bana e-posta gönder",
+      "address": "contact@ReNova.com"
+    },
+    "phone": {
+      "label": "İletişim Numarası",
+      "number": "+1 (555) 555-5555"
+    },
+    "social": {
+      "title": "Sosyal medyada çalışmalarımızı takip edin"
+    }
+  },
+  "global": {
+    "title": "Küresel Operasyonlar",
+    "heading": "Şirketimiz dünya çapında faaliyet göstermekte ve farklı kıtalardaki birçok ülkede bulunmaktadır",
+    "description": "Kapsamlı ağımız, mükemmellik ve yeniliğe olan bağlılığımızın bir yansıması olarak dünya çapındaki müşterilere birinci sınıf ürün ve hizmetler sunmamızı sağlıyor"
+  },
+  "footer": {
+    "cta": "Harekete geçmeye hazır mısınız? Hemen teklif alın.",
+    "getQuote": "Teklif Al",
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetler",
+      "projects": "Projeler",
+      "about": "Hakkımızda",
+      "contact": "İletişim"
+    }
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  }
+}

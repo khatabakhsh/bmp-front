@@ -1,3 +1,4 @@
+'use client';
 import * as React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -22,6 +23,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
             error && 'border-b-red-500 focus:border-b-red-500',
             className
           )}
+          suppressHydrationWarning
           {...props}
         />
       </div>
